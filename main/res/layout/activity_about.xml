@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.casey3po.project.About">
+
+    <ImageView
+        android:id="@+id/teaImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="84dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/tea_logo"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/aboutText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/teaImage"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:inputType="textMultiLine"
+        android:text="@string/about_text"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+</RelativeLayout>
